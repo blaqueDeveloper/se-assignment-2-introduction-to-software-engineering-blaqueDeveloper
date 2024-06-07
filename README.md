@@ -7,8 +7,8 @@ Answer the following questions based on your understanding of software engineeri
 
 Questions:
 <ol>
-    <li>Define Software Engineering:</li>
-        <em>Software engineering is a disciplined approach to designing, developing, testing and maintaining software applications and systems
+    <li><h2>Define Software Engineering:</h2></li>
+        <em><p>Software engineering is a disciplined approach to designing, developing, testing and maintaining software applications and systems</p>
         <ul>
             <li>Designing: Planning how the software will work, including its structure and user interface</li>
             <li>Developing: This is where you write the actual code that makes the software work</li>
@@ -16,7 +16,7 @@ Questions:
             <li>Maintaining: Updating the software to improve performance, add new features, and fix any new issues that arise</li>
         </ul>
         </em>
-    <li>What is software engineering, and how does it differ from traditional programming?</li>
+    <li><h2>What is software engineering, and how does it differ from traditional programming?</h2></li>
         <em>Software engineering is a disciplined approach to designing, developing, testing and maintaining software applications and systems</em>
         <ol>
             <li>Approach</li>
@@ -40,10 +40,10 @@ Questions:
                 <li><em>Traditional Programming: Often lacks formal project management practices, especially in smaller or less complex projects.</em></li>
             </ul>
         </ol>
-    <li>Software Development Life Cycle (SDLC):</li>
+    <li><h2>Software Development Life Cycle (SDLC):</h2></li>
         <p><em>The Software Development Life Cycle (SDLC) is a structured process used by software engineers to develop software applications systematically. It consists of a series of stages that guide the software development process from initial concept to deployment and maintenance. </em></p>
-    <li>Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.</li>
-            <em><ol>
+    <li><h2>Explain the various phases of the Software Development Life Cycle. Provide a brief description of each phase.<h2></li>
+            <ol>
             <li>Planning:</li>
                 <em>
                 <p>This stage acts as the foundation of the whole SDLC scheme and paves the way for the successful execution of upcoming steps and, ultimately, a successful project launch. The problem the software targets is defined. The developers and other team members outline objectives for the system and draw a rough plan of how the system will work.</p>
@@ -79,42 +79,40 @@ Questions:
                 <em><p>The maintenance stage is where the software is already being used by end-users.</p>
                 <p>During the first couple of months, developers might face problems that weren’t detected during initial testing, so they should immediately react to the reported issues and implement the changes needed for the software’s stable and convenient usage.</p>
                 <p>This is particularly important for large systems, which usually are more difficult to test in the debugging stage.</p></em>
-        </ol><em>
-    Agile vs. Waterfall Models:
-    <li>Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?</li>
+        </ol>
+    <li><h2>Compare and contrast the Agile and Waterfall models of software development. What are the key differences, and in what scenarios might each be preferred?</h2></li>
         <em><p> Waterfall is preferred for projects with well-defined requirements and a need for rigorous documentation, while Agile is better suited for projects that require flexibility, continuous customer feedback, and iterative progress.</p></em>
-        <h1>Waterfall Model</h1>
-        <h2>Preferred Scenarios</h2>
+        <h2>Waterfall Model</h2>
+        <h3>Preferred Scenarios</h3>
         <ul>
             <li>Well-Defined Projects: Projects with clear, unchanging requirements and a well-understood problem domain.</li>
             <li>Regulated Industries: Industries where comprehensive documentation and adherence to standards are crucial</li>
             <li>Short-Term Projects: Projects with a short duration where the requirements are unlikely to change.</li>
         </ul>
-        <h2>Characteristics</h2>
+        <h3>Characteristics</h3>
         <ul>
             <li>Development progresses is through a series of defined stages (Requirements, Design, Implementation, Testing, Deployment, Maintenance) in a fixed order.</li>
             <li> Emphasizes thorough documentation at each stage.</li>
             <li>Requirements are defined upfront and are not expected to change during the development process.</li>
             <li>Customer involvement is usually limited to the requirements phase and final delivery.</li>
         </ul>
-        <h1>Agile Model</h1>
-        <h2>Preferred Scenarios</h2>
+        <h2>Agile Model</h2>
+        <h3>Preferred Scenarios</h3>
         <ul>
             <li>Complex and Evolving Projects: Projects where requirements are expected to evolve or are not fully understood at the outset.</li>
             <li>Customer-Focused Products: Products that need to be closely aligned with user needs and preferences, such as consumer applications.</li>
             <li>Innovation-Driven Projects: Projects that require frequent innovation and rapid adaptation to new technologies or market conditions.</li>
         </ul>
-        <h2>Characteristics</h2>
+        <h3>Characteristics</h3>
         <ul>
             <li>Development is carried out in small, iterative cycles (sprints) that build on previous iterations.</li>
             <li>Encourages close collaboration among cross-functional teams.</li>
             <li>Allows for changing requirements even late in the development process.</li>
             <li>High level of customer involvement throughout the development process.</li>
         </ul>
-    Requirements Engineering:
-    <li>What is requirements engineering? Describe the process and its importance in the software development lifecycle.</li>
+    <li><h2>What is requirements engineering? Describe the process and its importance in the software development lifecycle.</h2></li>
         <em><p>Requirements engineering is the process of defining, documenting, and maintaining the requirements for a software system.</p></em>
-        <h2>Process of Requirements Engineering</h2>
+        <h3>Process of Requirements Engineering</h3>
         <ol>
             <li>Requirements Elicitation</li>
             <ul>
@@ -147,7 +145,7 @@ Questions:
                 <li>Outcome: Up-to-date requirements documentation that reflects current project needs.</li>
             </ul>
         </ol>
-        <h2>Importance of Requirements Engineering in SDLC</h2>
+        <h3>Importance of Requirements Engineering in SDLC</h3>
         <ol>
         <li>Alignment with Stakeholder Needs</li>
             <ul>
@@ -170,39 +168,38 @@ Questions:
                 <li>Ensures that testing is aligned with the requirements and that the final product meets the specified criteria.</li>
             </ul>
         </ol>
-    Software Design Principles:
-    <li>Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?</li>
+    <li><h2>Explain the concept of modularity in software design. How does it improve maintainability and scalability of software systems?</h2></li>
         <em><p>Modularity in software design is the practice of dividing a software system into distinct, manageable units or modules, each with a specific functionality and well-defined interfaces. This approach enhances the organization and structure of the code, making it easier to develop, maintain, and scale the system.</p></em>
-        <h2>How Modularity Improves Maintainability and Scalability</h2>
+        <h3>How Modularity Improves Maintainability and Scalability</h3>
         <ol>
             <li>Clear Separation of Concerns</li>
                 <ul>
                     <li>Each module focuses on a specific aspect of the system’s functionality, adhering to the principle of separation of concerns. This makes the system more organized and manageable.</li>
                 </ul>
-            <li></li>
+            <li>Encapsulation</li>
                 <ul>
-                    <li></li>
+                    <li>Modules encapsulate their internal workings, exposing only necessary interfaces to other parts of the system. This reduces the risk of unintended interactions and dependencies, making the system more robust and easier to modify.</li>
                 </ul>
-            <li></li>
+            <li>Reusability</li>
                 <ul>
-                    <li></li>
+                    <li>Well-designed modules can be reused across different projects or parts of the same project, promoting code reuse and reducing redundancy</li>
                 </ul>
-            <li></li>
+            <li>Parallel Development</li>
                 <ul>
-                    <li></li>
+                    <li>Different teams can work on different modules concurrently without stepping on each other's toes. This parallelism speeds up development and allows for better resource allocation.</li>
                 </ul>
-            <li></li>
+            <li>Simplified Debugging and Testing</li>
                 <ul>
-                    <li></li>
+                    <li>When a bug is found, it can often be traced to a specific module, making debugging more straightforward. Unit testing can be performed on individual modules, improving the reliability and robustness of the system.</li>
                 </ul>
-            <li></li>
+            <li>Flexibility and Adaptability</li>
                 <ul>
-                    <li></li>
+                    <li>New features can be added by developing new modules or extending existing ones without needing to overhaul the entire system. This adaptability is crucial for evolving software requirements and technologies.</li>
                 </ul>
         </ol>
-    Testing in Software Engineering:
+    <li><h2>Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?</h2></li>
+        <ol></ol>
 
-    Describe the different levels of software testing (unit testing, integration testing, system testing, acceptance testing). Why is testing crucial in software development?
     Version Control Systems:
 
     What are version control systems, and why are they important in software development? Give examples of popular version control systems and their features.
